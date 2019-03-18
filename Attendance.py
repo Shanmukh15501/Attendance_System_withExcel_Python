@@ -85,7 +85,7 @@ def face(faces):
                       if keynote == 'k':
                            print("Data Entered Successfully",text)
                            update_Sheet(text)
-                           wb2.save('Output.xlsx'
+                           wb2.save('Output.xlsx')
             else:
                  text="unknown"
                  output(id,text,x,y)
